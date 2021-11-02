@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Data Download
 
-Later we will upload dataset and translation table to google drive. Stay tuned. You can also run code based on your own data, see training for arguments explanation.
+Later we will upload the dataset and translation table to google drive. Stay tuned. You can also run code based on your data, see training for arguments explanation.
 
 ## Training
 
@@ -47,7 +47,7 @@ python3 hugface_train.py \
         --queries # query file
         --query_lang # query langauge
         --rerank_topK # rerank top K from inital retreival 
-        --seed 42 # random seed
+        --seed # random seed
         --test_run # inital retreival runfile for testing
         --train_pairs # pre-sampled training triplets
         --tt # directory for translation table
